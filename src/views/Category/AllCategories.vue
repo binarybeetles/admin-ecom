@@ -1,12 +1,12 @@
 <template>
   <div class="container">
-    <div class="bg-1">dashboard here</div>
+    <div class="bg-1">all categories here</div>
   </div>
 </template>
 
 <script>
 export default {
-  name: "dashboard",
+  name: "all-categories",
   components: {},
   data() {
     return {};

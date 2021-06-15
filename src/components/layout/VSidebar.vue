@@ -73,8 +73,8 @@ export default {
           icon: "storefront",
           title: "Vendor",
           subTitle: [
-            { route: "list", title: "List" },
-            { route: "create", title: "Create" },
+            { route: "list", title: "All Vendors" },
+            { route: "create", title: "Add Vendors" },
             { route: "product", title: "Product" },
           ],
         },
