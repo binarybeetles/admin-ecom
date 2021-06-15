@@ -1,0 +1,45 @@
+.format {
+  .sub-heading {
+    font-size: 1rem;
+    width: 100%;
+    border-bottom: 1px solid var(--color-gray-2);
+    line-height: 0.1em;
+    color: var(--color-gray-3);
+    margin-top: 0.5rem;
+    span {
+      background: #fff;
+      padding-right: 5px;
+    }
+  }
+  .select-format {
+    margin-top: 1.5rem;
+  }
+  .options-wrapper {
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.16);
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    height: 69px;
+    justify-content: space-between;
+  }
+  .option-values {
+    align-items: flex-end;
+    .value {
+      margin-bottom: 0;
+      font-size: 14px;
+      span {
+        color: var(--color-gray-3);
+      }
+      &:first-child {
+        margin-bottom: 0.5rem;
+      }
+    }
+  }
+  .format-image {
+    width: 33px;
+    height: 50px;
+    &.landscape {
+      transform: rotate(90deg);
+      margin-left: 0.5rem;
+    }
+  }
+}
